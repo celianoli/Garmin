@@ -1,0 +1,224 @@
+[ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc"; @line = 1; @symbol_moduledef = [MeteoUtils,1,7,17]; ]
+module MeteoUtils {
+    [ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc"; @line = 1; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,10,16]; @symbol_usingdef<1> = [Graphics,2,17,25]; @symbol_usingAlias = [Gfx,2,29,32]; ]
+    using Toybox.Graphics as :Gfx;
+    [ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,10,16]; @symbol_usingdef<1> = [Weather,3,17,24]; ]
+    using Toybox.Weather;
+    [ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,10,16]; @symbol_usingdef<1> = [Position,4,17,25]; @symbol_usingAlias = [Position,4,29,37]; ]
+    using Toybox.Position as :Position;
+    [ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc"; @line = 5; @symbol_usingdef<0> = [Rez,5,10,13]; ]
+    using Rez;
+    [ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc"; @line = 8; @symbol_functiondef = [getIconForCondition,8,13,32]; @symbol_param<0> = [condition,8,33,42]; ]
+    function getIconForCondition(condition) {
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_8_44_19_4_start:
+[ "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc" 9 8 ]
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_9_8_17_8_if_stmt:
+        %tmp.1 = lgetv %condition;
+        symbol [ condition %tmp.1 9 12 21 ];
+        symbol [ Weather %tmp.2 9 25 32 ];
+        %tmp.2 = getm $.Toybox.Weather;
+        symbol [ CONDITION_CLEAR %tmp.3 9 33 48 ];
+        %tmp.3 = getv %tmp.2 :CONDITION_CLEAR;
+        %tmp.4 = eq %tmp.1 %tmp.3;
+        bf %tmp.4 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_9_8_17_8_if_false;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_9_8_17_8_if_true:
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_9_50_11_8_start:
+[ "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc" 10 12 ]
+        symbol [ Rez %tmp.5 10 19 22 ];
+        %tmp.5 = getm $.Rez;
+        symbol [ Drawables %tmp.6 10 23 32 ];
+        %tmp.6 = getv %tmp.5 :Drawables;
+        symbol [ Soleil %tmp.7 10 33 39 ];
+        %tmp.7 = getv %tmp.6 :Soleil;
+        ret %tmp.7;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_9_50_11_8_stop:
+        goto @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_9_8_17_8_if_end;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_9_8_17_8_if_false:
+[ "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc" 11 15 ]
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_11_15_17_8_if_stmt:
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_11_19_12_40_begin:
+        %tmp.8 = lgetv %condition;
+        symbol [ condition %tmp.8 11 19 28 ];
+        symbol [ Weather %tmp.9 11 32 39 ];
+        %tmp.9 = getm $.Toybox.Weather;
+        symbol [ CONDITION_PARTLY_CLOUDY %tmp.10 11 40 63 ];
+        %tmp.10 = getv %tmp.9 :CONDITION_PARTLY_CLOUDY;
+        %tmp.11 = eq %tmp.8 %tmp.10;
+        bt %tmp.11 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_11_15_17_8_if_true;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_12_19_12_40_false:
+        %tmp.12 = lgetv %condition;
+        symbol [ condition %tmp.12 12 19 28 ];
+        symbol [ Weather %tmp.13 12 32 39 ];
+        %tmp.13 = getm $.Toybox.Weather;
+        symbol [ CONDITION_CLOUDY %tmp.14 12 40 56 ];
+        %tmp.14 = getv %tmp.13 :CONDITION_CLOUDY;
+        %tmp.15 = eq %tmp.12 %tmp.14;
+        push %tmp.15;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_12_19_12_40_end:
+        %tmp.16 = phi [%tmp.11 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_11_19_12_40_begin] [%tmp.15 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_12_19_12_40_false] [%tmp.16 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_12_19_12_40_end];
+        bf %tmp.16 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_11_15_17_8_if_false;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_11_15_17_8_if_true:
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_12_58_14_8_start:
+[ "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc" 13 12 ]
+        symbol [ Rez %tmp.17 13 19 22 ];
+        %tmp.17 = getm $.Rez;
+        symbol [ Drawables %tmp.18 13 23 32 ];
+        %tmp.18 = getv %tmp.17 :Drawables;
+        symbol [ Nuage %tmp.19 13 33 38 ];
+        %tmp.19 = getv %tmp.18 :Nuage;
+        ret %tmp.19;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_12_58_14_8_stop:
+        goto @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_11_15_17_8_if_end;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_11_15_17_8_if_false:
+[ "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc" 14 15 ]
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_14_15_17_8_if_stmt:
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_14_19_15_40_begin:
+        %tmp.20 = lgetv %condition;
+        symbol [ condition %tmp.20 14 19 28 ];
+        symbol [ Weather %tmp.21 14 32 39 ];
+        %tmp.21 = getm $.Toybox.Weather;
+        symbol [ CONDITION_RAIN %tmp.22 14 40 54 ];
+        %tmp.22 = getv %tmp.21 :CONDITION_RAIN;
+        %tmp.23 = eq %tmp.20 %tmp.22;
+        bt %tmp.23 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_14_15_17_8_if_true;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_15_19_15_40_false:
+        %tmp.24 = lgetv %condition;
+        symbol [ condition %tmp.24 15 19 28 ];
+        symbol [ Weather %tmp.25 15 32 39 ];
+        %tmp.25 = getm $.Toybox.Weather;
+        symbol [ CONDITION_SHOWERS %tmp.26 15 40 57 ];
+        %tmp.26 = getv %tmp.25 :CONDITION_SHOWERS;
+        %tmp.27 = eq %tmp.24 %tmp.26;
+        push %tmp.27;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_15_19_15_40_end:
+        %tmp.28 = phi [%tmp.23 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_14_19_15_40_begin] [%tmp.27 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_15_19_15_40_false] [%tmp.28 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_15_19_15_40_end];
+        bf %tmp.28 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_14_15_17_8_if_end;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_14_15_17_8_if_true:
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_15_59_17_8_start:
+[ "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc" 16 12 ]
+        symbol [ Rez %tmp.29 16 19 22 ];
+        %tmp.29 = getm $.Rez;
+        symbol [ Drawables %tmp.30 16 23 32 ];
+        %tmp.30 = getv %tmp.29 :Drawables;
+        symbol [ Pluie %tmp.31 16 33 38 ];
+        %tmp.31 = getv %tmp.30 :Pluie;
+        ret %tmp.31;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_15_59_17_8_stop:
+        goto @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_14_15_17_8_if_end;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_14_15_17_8_if_end:
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_11_15_17_8_if_end:
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_9_8_17_8_if_end:
+[ "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc" 18 8 ]
+        %tmp.32 = null;
+        ret %tmp.32;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_8_44_19_4_stop:
+    }
+    [ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc"; @line = 22; @symbol_functiondef = [getLocationName,22,13,28]; ]
+    function getLocationName() {
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_22_31_30_4_start:
+[ "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc" 23 8 ]
+        [ "C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_22_31_30_4_start" "C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_22_31_30_4_stop" ]
+        %info.1 = local;
+        symbol [ info %info.1 23 12 16 ];
+        symbol [ Position %tmp.1 23 19 27 ];
+        %tmp.1 = getm $.Toybox.Position;
+        symbol [ getInfo %tmp.2 23 28 35 ];
+        %tmp.2 = getv function %tmp.1 :getInfo;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %info.1 %tmp.3;
+        symbol [ info %info.1 23 12 16 ];
+[ "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc" 24 8 ]
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_8_28_8_if_stmt:
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_12_24_75_begin:
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_12_24_47_begin:
+        %tmp.4 = lgetv %info.1;
+        symbol [ info %tmp.4 24 12 16 ];
+        %tmp.5 = null;
+        %tmp.6 = ne %tmp.4 %tmp.5;
+        bf %tmp.6 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_8_28_8_if_end;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_28_24_47_true:
+        %tmp.7 = lgetv %info.1;
+        symbol [ info %tmp.7 24 28 32 ];
+        %tmp.8 = as %tmp.7 { (!Null) };
+        %tmp.10 = const :latitude;
+        symbol [ latitude %tmp.10 24 34 42 const ];
+        %tmp.11 = agetv %tmp.8 %tmp.10;
+        %tmp.12 = null;
+        %tmp.13 = ne %tmp.11 %tmp.12;
+        push %tmp.13;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_28_24_47_end:
+        %tmp.14 = phi [%tmp.6 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_12_24_47_begin] [%tmp.13 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_28_24_47_true] [%tmp.14 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_28_24_47_end];
+        bf %tmp.14 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_8_28_8_if_end;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_55_24_75_true:
+        %tmp.15 = lgetv %info.1;
+        symbol [ info %tmp.15 24 55 59 ];
+        %tmp.16 = as %tmp.15 { (!Null) };
+        %tmp.18 = const :longitude;
+        symbol [ longitude %tmp.18 24 61 70 const ];
+        %tmp.19 = agetv %tmp.16 %tmp.18;
+        %tmp.20 = null;
+        %tmp.21 = ne %tmp.19 %tmp.20;
+        push %tmp.21;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_55_24_75_end:
+        %tmp.22 = phi [%tmp.14 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_12_24_75_begin] [%tmp.21 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_55_24_75_true] [%tmp.22 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_55_24_75_end];
+        bf %tmp.22 @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_8_28_8_if_end;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_8_28_8_if_true:
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_81_28_8_start:
+[ "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc" 25 12 ]
+        [ "C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_81_28_8_start" "C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_81_28_8_stop" ]
+        %lat.2 = local;
+        symbol [ lat %lat.2 25 16 19 ];
+        %tmp.23 = lgetv %info.1;
+        symbol [ info %tmp.23 25 22 26 ];
+        %tmp.24 = as %tmp.23 { (!Null) };
+        %tmp.26 = const :latitude;
+        symbol [ latitude %tmp.26 25 28 36 const ];
+        %tmp.27 = agetv %tmp.24 %tmp.26;
+        symbol [ format %tmp.28 25 38 44 ];
+        %tmp.28 = getv function %tmp.27 :format;
+        %tmp.29 = "%0.1f";
+        %tmp.30 = invoke %tmp.27 %tmp.28(%tmp.29);
+        lputv %lat.2 %tmp.30;
+        symbol [ lat %lat.2 25 16 19 ];
+[ "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc" 26 12 ]
+        [ "C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_81_28_8_start" "C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_81_28_8_stop" ]
+        %lon.3 = local;
+        symbol [ lon %lon.3 26 16 19 ];
+        %tmp.31 = lgetv %info.1;
+        symbol [ info %tmp.31 26 22 26 ];
+        %tmp.32 = as %tmp.31 { (!Null) };
+        %tmp.34 = const :longitude;
+        symbol [ longitude %tmp.34 26 28 37 const ];
+        %tmp.35 = agetv %tmp.32 %tmp.34;
+        symbol [ format %tmp.36 26 39 45 ];
+        %tmp.36 = getv function %tmp.35 :format;
+        %tmp.37 = "%0.1f";
+        %tmp.38 = invoke %tmp.35 %tmp.36(%tmp.37);
+        lputv %lon.3 %tmp.38;
+        symbol [ lon %lon.3 26 16 19 ];
+[ "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc" 27 12 ]
+        %tmp.39 = "lat:";
+        %tmp.40 = lgetv %lat.2;
+        symbol [ lat %tmp.40 27 28 31 ];
+        %tmp.41 = add %tmp.39 %tmp.40;
+        %tmp.42 = " lon:";
+        %tmp.43 = add %tmp.41 %tmp.42;
+        %tmp.44 = lgetv %lon.3;
+        symbol [ lon %tmp.44 27 44 47 ];
+        %tmp.45 = add %tmp.43 %tmp.44;
+        ret %tmp.45;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_81_28_8_stop:
+        goto @C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_8_28_8_if_end;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_24_8_28_8_if_end:
+[ "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc" 29 8 ]
+        %tmp.46 = "Ville inconnue";
+        ret %tmp.46;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleUtils_mc_22_31_30_4_stop:
+    }
+}
+[ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleUtils.mc"; @line = 1; ]
+<init> {
+}

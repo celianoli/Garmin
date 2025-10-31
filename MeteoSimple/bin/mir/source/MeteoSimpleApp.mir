@@ -1,0 +1,59 @@
+[ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleApp.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [Application,1,13,24]; ]
+using Toybox.Application;
+[ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleApp.mc"; @line = 3; @symbol_classdef = [MeteoSimpleApp,3,6,20]; @symbol_extends<0> = [Application,3,29,40]; @symbol_extends<1> = [AppBase,3,41,48]; ]
+class MeteoSimpleApp extends Application.AppBase {
+    [ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleApp.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleApp.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleApp.mc"; @line = 5; @symbol_functiondef = [initialize,5,13,23]; ]
+    function initialize() as Void {
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleApp_mc_5_26_5_50_start:
+[ "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleApp.mc" 5 28 ]
+        symbol [ AppBase %tmp.2 5 28 35 ];
+        %tmp.2 = getv ? :AppBase;
+        symbol [ initialize %tmp.3 5 36 46 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleApp_mc_5_26_5_50_stop:
+    }
+    [ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleApp.mc"; @line = 6; @symbol_functiondef = [onStart,6,13,20]; ]
+    function onStart() {
+    }
+    [ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleApp.mc"; @line = 7; @symbol_functiondef = [onStop,7,13,19]; ]
+    function onStop() {
+    }
+    [ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleApp.mc"; @line = 8; @symbol_functiondef = [getInitialView,8,13,27]; ]
+    function getInitialView() {
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleApp_mc_8_30_10_4_start:
+[ "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleApp.mc" 9 8 ]
+        %tmp.1 = newa 1;
+        symbol [ MeteoView %tmp.5 9 21 30 ];
+        %tmp.5 = getv ? :MeteoView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleApp_mc_8_30_10_4_stop:
+    }
+}
+[ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleApp.mc"; @line = 13; @symbol_functiondef = [getApp,13,9,15]; @symbol_return<0> = [MeteoSimpleApp,13,21,35]; ]
+function getApp() as MeteoSimpleApp {
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleApp_mc_13_36_15_0_start:
+[ "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleApp.mc" 14 4 ]
+    symbol [ Application %tmp.1 14 11 22 ];
+    %tmp.1 = getm $.Toybox.Application;
+    symbol [ getApp %tmp.2 14 23 29 ];
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 MeteoSimpleApp;
+    symbol [ MeteoSimpleApp %tmp.4 14 35 49 ];
+    ret %tmp.4;
+C__Users_Cess_Documents_garmin_ConnectIQ_Projects_MeteoSimple_Garmin_MeteoSimple_source_MeteoSimpleApp_mc_13_36_15_0_stop:
+}
+[ @file = "C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\source\MeteoSimpleApp.mc"; @line = 1; ]
+<init> {
+}

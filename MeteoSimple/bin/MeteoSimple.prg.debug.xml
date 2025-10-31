@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Users\Cess\Documents\garmin\ConnectIQ\Projects\MeteoSimple\Garmin\MeteoSimple\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="1" lineNum="6" parent="globals/MeteoWidget" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="c:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\bin\\gen\\006-B4024-00\\source\\Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435472" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="3" lineNum="8" parent="globals/MeteoWidget" pc="268435492" symbol="initialize"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="3" lineNum="9" parent="globals/MeteoWidget" pc="268435494" symbol="initialize"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="4" lineNum="12" parent="globals/MeteoWidget" pc="268435507" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="4" lineNum="13" parent="globals/MeteoWidget" pc="268435510" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="4" lineNum="14" parent="globals/MeteoWidget" pc="268435519" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="4" lineNum="15" parent="globals/MeteoWidget" pc="268435528" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="4" lineNum="17" parent="globals/MeteoWidget" pc="268435536" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="4" lineNum="19" parent="globals/MeteoWidget" pc="268435548" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="4" lineNum="21" parent="globals/MeteoWidget" pc="268435554" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="4" lineNum="22" parent="globals/MeteoWidget" pc="268435575" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="4" lineNum="25" parent="globals/MeteoWidget" pc="268435604" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="4" lineNum="26" parent="globals/MeteoWidget" pc="268435625" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="4" lineNum="27" parent="globals/MeteoWidget" pc="268435631" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="4" lineNum="28" parent="globals/MeteoWidget" pc="268435647" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="4" lineNum="32" parent="globals/MeteoWidget" pc="268435680" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="4" lineNum="33" parent="globals/MeteoWidget" pc="268435692" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleView.mc" id="4" lineNum="36" parent="globals/MeteoWidget" pc="268435724" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleUtils.mc" id="5" lineNum="22" parent="globals/MeteoUtils" pc="268435754" symbol="getLocationName"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleUtils.mc" id="5" lineNum="23" parent="globals/MeteoUtils" pc="268435765" symbol="getLocationName"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleUtils.mc" id="5" lineNum="24" parent="globals/MeteoUtils" pc="268435777" symbol="getLocationName"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleUtils.mc" id="5" lineNum="25" parent="globals/MeteoUtils" pc="268435807" symbol="getLocationName"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleUtils.mc" id="5" lineNum="26" parent="globals/MeteoUtils" pc="268435830" symbol="getLocationName"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleUtils.mc" id="5" lineNum="27" parent="globals/MeteoUtils" pc="268435853" symbol="getLocationName"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleUtils.mc" id="5" lineNum="29" parent="globals/MeteoUtils" pc="268435874" symbol="getLocationName"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleUtils.mc" id="6" lineNum="8" parent="globals/MeteoUtils" pc="268435880" symbol="getIconForCondition"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleUtils.mc" id="6" lineNum="9" parent="globals/MeteoUtils" pc="268435890" symbol="getIconForCondition"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleUtils.mc" id="6" lineNum="10" parent="globals/MeteoUtils" pc="268435897" symbol="getIconForCondition"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleUtils.mc" id="6" lineNum="11" parent="globals/MeteoUtils" pc="268435920" symbol="getIconForCondition"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleUtils.mc" id="6" lineNum="13" parent="globals/MeteoUtils" pc="268435936" symbol="getIconForCondition"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleUtils.mc" id="6" lineNum="14" parent="globals/MeteoUtils" pc="268435959" symbol="getIconForCondition"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleUtils.mc" id="6" lineNum="16" parent="globals/MeteoUtils" pc="268435975" symbol="getIconForCondition"/>
+<entry filename="C:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\source\\MeteoSimpleUtils.mc" id="6" lineNum="18" parent="globals/MeteoUtils" pc="268435998" symbol="getIconForCondition"/>
+<entry filename="c:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\bin\\gen\\006-B4024-00\\source\\Rez.mcgen" id="7" lineNum="17" parent="globals/Rez/Layouts" pc="268436000" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\bin\\gen\\006-B4024-00\\source\\Rez.mcgen" id="7" lineNum="18" parent="globals/Rez/Layouts" pc="268436011" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\bin\\gen\\006-B4024-00\\source\\Rez.mcgen" id="7" lineNum="19" parent="globals/Rez/Layouts" pc="268436098" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Cess\\Documents\\garmin\\ConnectIQ\\Projects\\MeteoSimple\\Garmin\\MeteoSimple\\bin\\gen\\006-B4024-00\\source\\Rez.mcgen" id="7" lineNum="21" parent="globals/Rez/Layouts" pc="268436140" symbol="MainLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="2" module="true" symbol="globals/MeteoUtils"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="17" method="true" symbol="MainLayout"/>
+<entry id="11" method="true" symbol="getLocationName"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="18" symbol="AppName"/>
+<entry field="true" id="15" symbol="Soleil"/>
+<entry id="6" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="3" module="true" symbol="globals/Rez"/>
+<entry id="10" method="true" symbol="getIconForCondition"/>
+<entry field="true" id="16" symbol="id_monkey"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8391489" module="true" symbol="Weather"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389314" symbol="latitude"/>
+<entry id="5" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="14" symbol="Pluie"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="4" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="13" symbol="Nuage"/>
+<entry id="8" object="true" symbol="MeteoWidget"/>
+<entry id="8389315" symbol="longitude"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="12" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="7" module="true" symbol="MeteoUtils"/>
+<entry id="9" module="true" symbol="Layouts"/>
+<entry id="8388642" module="true" symbol="Position"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435753" name="dc" stackId="1" startPc="268435507"/>
+<entry endPc="268435752" name="width" stackId="2" startPc="268435510"/>
+<entry endPc="268435752" name="height" stackId="3" startPc="268435510"/>
+<entry endPc="268435752" name="current" stackId="4" startPc="268435510"/>
+<entry endPc="268435720" name="temp" stackId="5" startPc="268435554"/>
+<entry endPc="268435720" name="iconId" stackId="6" startPc="268435554"/>
+<entry endPc="268435676" name="bmp" stackId="7" startPc="268435631"/>
+<entry endPc="268435720" name="locationTxt" stackId="8" startPc="268435554"/>
+<entry endPc="268435879" name="info" stackId="1" startPc="268435765"/>
+<entry endPc="268435870" name="lat" stackId="2" startPc="268435807"/>
+<entry endPc="268435870" name="lon" stackId="3" startPc="268435807"/>
+<entry arg="true" endPc="268435999" name="condition" stackId="1" startPc="268435880"/>
+<entry arg="true" endPc="268436149" name="dc" stackId="1" startPc="268436000"/>
+<entry endPc="268436149" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268436011"/>
+</localVars>
+<deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B4024-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Nuage"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Soleil"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Pluie"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/MeteoWidget" offset="125" parentId="globals" symbolId="MeteoWidget" type="class"/>
+<dataEntry label="globals/Rez" offset="178" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/MeteoUtils" offset="231" parentId="globals" symbolId="MeteoUtils" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="275" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="346" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="381" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="MeteoWidget" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435491" name="&lt;init&gt;" parent="Rez" startPc="268435472">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="MeteoUtils">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435506" name="initialize" parent="MeteoWidget" startPc="268435492">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435753" name="onUpdate" parent="MeteoWidget" startPc="268435507">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435879" name="getLocationName" parent="MeteoUtils" startPc="268435754">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435999" name="getIconForCondition" parent="MeteoUtils" startPc="268435880">
+<param id="condition"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436149" name="MainLayout" parent="Layouts" startPc="268436000">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
