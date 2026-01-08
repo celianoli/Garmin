@@ -1,0 +1,380 @@
+[ @file = "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [System,3,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [ActivityMonitor,4,14,29]; ]
+import Toybox.ActivityMonitor;
+[ @file = "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Lang,5,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc"; @line = 7; @symbol_classdef = [MoniteurCardiaqueView,7,6,27]; @symbol_extends<0> = [WatchUi,7,36,43]; @symbol_extends<1> = [WatchFace,7,44,53]; ]
+class MoniteurCardiaqueView extends WatchUi.WatchFace {
+    [ @file = "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc"; @line = 9; @symbol_functiondef = [initialize,9,13,23]; ]
+    function initialize() as Void {
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_9_26_11_4_start:
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 10 8 ]
+        symbol [ WatchFace %tmp.2 10 8 17 ];
+        %tmp.2 = getv ? :WatchFace;
+        symbol [ initialize %tmp.3 10 18 28 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_9_26_11_4_stop:
+    }
+    [ @file = "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc"; @line = 13; @symbol_functiondef = [onUpdate,13,13,21]; @symbol_param<0> = [dc,13,22,24]; @symbol_param<0>_type<0> = [Dc,13,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_start:
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 15 8 ]
+        [ "C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_start" "C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_stop" ]
+        %info.1 = local;
+        symbol [ info %info.1 15 12 16 ];
+        symbol [ ActivityMonitor %tmp.1 15 19 34 ];
+        %tmp.1 = getm $.Toybox.ActivityMonitor;
+        symbol [ getInfo %tmp.2 15 35 42 ];
+        %tmp.2 = getv function %tmp.1 :getInfo;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %info.1 %tmp.3;
+        symbol [ info %info.1 15 12 16 ];
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 16 8 ]
+        [ "C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_start" "C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_stop" ]
+        %hr.2 = local;
+        symbol [ hr %hr.2 16 12 14 ];
+        %tmp.4 = null;
+        lputv %hr.2 %tmp.4;
+        symbol [ hr %hr.2 16 12 14 ];
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 17 8 ]
+        [ "C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_start" "C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_stop" ]
+        %stats.3 = local;
+        symbol [ stats %stats.3 17 12 17 ];
+        symbol [ System %tmp.5 17 20 26 ];
+        %tmp.5 = getm $.Toybox.System;
+        symbol [ getSystemStats %tmp.6 17 27 41 ];
+        %tmp.6 = getv function %tmp.5 :getSystemStats;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        lputv %stats.3 %tmp.7;
+        symbol [ stats %stats.3 17 12 17 ];
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 18 8 ]
+        [ "C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_start" "C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_stop" ]
+        %battery.4 = local;
+        symbol [ battery %battery.4 18 12 19 ];
+        %tmp.8 = lgetv %stats.3;
+        symbol [ stats %tmp.8 18 22 27 ];
+        symbol [ battery %tmp.9 18 28 35 ];
+        %tmp.9 = getv %tmp.8 :battery;
+        lputv %battery.4 %tmp.9;
+        symbol [ battery %battery.4 18 12 19 ];
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 21 8 ]
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_21_8_25_8_if_stmt:
+        %tmp.10 = lgetv %info.1;
+        symbol [ info %tmp.10 21 12 16 ];
+        %tmp.12 = const :currentHeartRate;
+        symbol [ currentHeartRate %tmp.12 21 22 38 const ];
+        %tmp.13 = canhazplz %tmp.10 %tmp.12;
+        bf %tmp.13 @C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_21_8_25_8_if_false;
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_21_8_25_8_if_true:
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_21_40_23_8_start:
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 22 12 ]
+        %tmp.14 = lgetv %info.1;
+        symbol [ info %tmp.14 22 17 21 ];
+        %tmp.15 = as %tmp.14 { (interface { var currentHeartRate; }) };
+        symbol [ currentHeartRate %tmp.16 22 22 38 ];
+        %tmp.16 = getv %tmp.15 :currentHeartRate;
+        lputv %hr.2 %tmp.16;
+        symbol [ hr %hr.2 22 12 14 ];
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_21_40_23_8_stop:
+        goto @C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_21_8_25_8_if_end;
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_21_8_25_8_if_false:
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 23 15 ]
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_23_15_25_8_if_stmt:
+        %tmp.17 = lgetv %info.1;
+        symbol [ info %tmp.17 23 19 23 ];
+        %tmp.18 = as %tmp.17 { (!interface { var currentHeartRate; }) };
+        %tmp.20 = const :heartRate;
+        symbol [ heartRate %tmp.20 23 29 38 const ];
+        %tmp.21 = canhazplz %tmp.18 %tmp.20;
+        bf %tmp.21 @C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_23_15_25_8_if_end;
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_23_15_25_8_if_true:
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_23_40_25_8_start:
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 24 12 ]
+        %tmp.22 = lgetv %info.1;
+        symbol [ info %tmp.22 24 17 21 ];
+        %tmp.23 = as %tmp.22 { (interface { var heartRate; }) && (!interface { var currentHeartRate; }) };
+        symbol [ heartRate %tmp.24 24 22 31 ];
+        %tmp.24 = getv %tmp.23 :heartRate;
+        lputv %hr.2 %tmp.24;
+        symbol [ hr %hr.2 24 12 14 ];
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_23_40_25_8_stop:
+        goto @C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_23_15_25_8_if_end;
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_23_15_25_8_if_end:
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_21_8_25_8_if_end:
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 28 8 ]
+        [ "C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_start" "C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_stop" ]
+        %backgroundColor.5 = local;
+        symbol [ backgroundColor %backgroundColor.5 28 12 27 ];
+        symbol [ Graphics %tmp.25 28 30 38 ];
+        %tmp.25 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.26 28 39 50 ];
+        %tmp.26 = getv %tmp.25 :COLOR_BLACK;
+        lputv %backgroundColor.5 %tmp.26;
+        symbol [ backgroundColor %backgroundColor.5 28 12 27 ];
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 29 8 ]
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_29_8_35_8_if_stmt:
+        %tmp.27 = lgetv %hr.2;
+        symbol [ hr %tmp.27 29 12 14 ];
+        %tmp.28 = null;
+        %tmp.29 = ne %tmp.27 %tmp.28;
+        bf %tmp.29 @C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_29_8_35_8_if_end;
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_29_8_35_8_if_true:
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_29_24_35_8_start:
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 30 12 ]
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_30_12_34_12_if_stmt:
+        %tmp.30 = lgetv %hr.2;
+        symbol [ hr %tmp.30 30 16 18 ];
+        %tmp.31 = as %tmp.30 { (!Null) };
+        %tmp.32 = 100;
+        %tmp.33 = gt %tmp.31 %tmp.32;
+        bf %tmp.33 @C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_30_12_34_12_if_false;
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_30_12_34_12_if_true:
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_30_26_32_12_start:
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 31 16 ]
+        symbol [ Graphics %tmp.34 31 34 42 ];
+        %tmp.34 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.35 31 43 52 ];
+        %tmp.35 = getv %tmp.34 :COLOR_RED;
+        lputv %backgroundColor.5 %tmp.35;
+        symbol [ backgroundColor %backgroundColor.5 31 16 31 ];
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_30_26_32_12_stop:
+        goto @C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_30_12_34_12_if_end;
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_30_12_34_12_if_false:
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 32 19 ]
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_32_19_34_12_if_stmt:
+        %tmp.36 = lgetv %hr.2;
+        symbol [ hr %tmp.36 32 23 25 ];
+        %tmp.37 = as %tmp.36 { (!Null) };
+        %tmp.38 = 60;
+        %tmp.39 = gt %tmp.37 %tmp.38;
+        bf %tmp.39 @C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_32_19_34_12_if_end;
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_32_19_34_12_if_true:
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_32_32_34_12_start:
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 33 16 ]
+        symbol [ Graphics %tmp.40 33 34 42 ];
+        %tmp.40 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GREEN %tmp.41 33 43 57 ];
+        %tmp.41 = getv %tmp.40 :COLOR_DK_GREEN;
+        lputv %backgroundColor.5 %tmp.41;
+        symbol [ backgroundColor %backgroundColor.5 33 16 31 ];
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_32_32_34_12_stop:
+        goto @C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_32_19_34_12_if_end;
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_32_19_34_12_if_end:
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_30_12_34_12_if_end:
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_29_24_35_8_stop:
+        goto @C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_29_8_35_8_if_end;
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_29_8_35_8_if_end:
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 38 8 ]
+        %tmp.42 = lgetv %dc;
+        symbol [ dc %tmp.42 38 8 10 ];
+        symbol [ setColor %tmp.43 38 11 19 ];
+        %tmp.43 = getv function %tmp.42 :setColor;
+        %tmp.44 = lgetv %backgroundColor.5;
+        symbol [ backgroundColor %tmp.44 38 20 35 ];
+        %tmp.45 = lgetv %backgroundColor.5;
+        symbol [ backgroundColor %tmp.45 38 37 52 ];
+        invoke %tmp.42 %tmp.43(%tmp.44, %tmp.45);
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 39 8 ]
+        %tmp.46 = lgetv %dc;
+        symbol [ dc %tmp.46 39 8 10 ];
+        symbol [ clear %tmp.47 39 11 16 ];
+        %tmp.47 = getv function %tmp.46 :clear;
+        invoke %tmp.46 %tmp.47();
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 42 8 ]
+        [ "C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_start" "C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_stop" ]
+        %clockTime.6 = local;
+        symbol [ clockTime %clockTime.6 42 12 21 ];
+        symbol [ System %tmp.48 42 24 30 ];
+        %tmp.48 = getm $.Toybox.System;
+        symbol [ getClockTime %tmp.49 42 31 43 ];
+        %tmp.49 = getv function %tmp.48 :getClockTime;
+        %tmp.50 = invoke %tmp.48 %tmp.49();
+        lputv %clockTime.6 %tmp.50;
+        symbol [ clockTime %clockTime.6 42 12 21 ];
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 43 8 ]
+        [ "C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_start" "C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_stop" ]
+        %timeString.7 = local;
+        symbol [ timeString %timeString.7 43 12 22 ];
+        symbol [ Lang %tmp.51 43 25 29 ];
+        %tmp.51 = getm $.Toybox.Lang;
+        symbol [ format %tmp.52 43 30 36 ];
+        %tmp.52 = getv function %tmp.51 :format;
+        %tmp.53 = "$1$:$2$";
+        %tmp.54 = newa 2;
+        %tmp.55 = lgetv %clockTime.6;
+        symbol [ clockTime %tmp.55 43 49 58 ];
+        symbol [ hour %tmp.56 43 59 63 ];
+        %tmp.56 = getv %tmp.55 :hour;
+        %tmp.57 = dup %tmp.54;
+        %tmp.58 = aputv %tmp.57 0 %tmp.56;
+        %tmp.59 = lgetv %clockTime.6;
+        symbol [ clockTime %tmp.59 43 65 74 ];
+        symbol [ min %tmp.60 43 75 78 ];
+        %tmp.60 = getv %tmp.59 :min;
+        symbol [ format %tmp.61 43 79 85 ];
+        %tmp.61 = getv function %tmp.60 :format;
+        %tmp.62 = "%02d";
+        %tmp.63 = invoke %tmp.60 %tmp.61(%tmp.62);
+        %tmp.64 = dup %tmp.58;
+        %tmp.65 = aputv %tmp.64 1 %tmp.63;
+        %tmp.66 = invoke %tmp.51 %tmp.52(%tmp.53, %tmp.65);
+        lputv %timeString.7 %tmp.66;
+        symbol [ timeString %timeString.7 43 12 22 ];
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 45 8 ]
+        %tmp.67 = lgetv %dc;
+        symbol [ dc %tmp.67 45 8 10 ];
+        symbol [ setColor %tmp.68 45 11 19 ];
+        %tmp.68 = getv function %tmp.67 :setColor;
+        symbol [ Graphics %tmp.69 45 20 28 ];
+        %tmp.69 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.70 45 29 40 ];
+        %tmp.70 = getv %tmp.69 :COLOR_WHITE;
+        symbol [ Graphics %tmp.71 45 42 50 ];
+        %tmp.71 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.72 45 51 68 ];
+        %tmp.72 = getv %tmp.71 :COLOR_TRANSPARENT;
+        invoke %tmp.67 %tmp.68(%tmp.70, %tmp.72);
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 46 8 ]
+        %tmp.73 = lgetv %dc;
+        symbol [ dc %tmp.73 46 8 10 ];
+        symbol [ drawText %tmp.74 46 11 19 ];
+        %tmp.74 = getv function %tmp.73 :drawText;
+        %tmp.75 = lgetv %dc;
+        symbol [ dc %tmp.75 47 12 14 ];
+        symbol [ getWidth %tmp.76 47 15 23 ];
+        %tmp.76 = getv function %tmp.75 :getWidth;
+        %tmp.77 = invoke %tmp.75 %tmp.76();
+        %tmp.78 = 2;
+        %tmp.79 = div %tmp.77 %tmp.78;
+        %tmp.80 = lgetv %dc;
+        symbol [ dc %tmp.80 48 12 14 ];
+        symbol [ getHeight %tmp.81 48 15 24 ];
+        %tmp.81 = getv function %tmp.80 :getHeight;
+        %tmp.82 = invoke %tmp.80 %tmp.81();
+        %tmp.83 = 2;
+        %tmp.84 = div %tmp.82 %tmp.83;
+        symbol [ Graphics %tmp.85 49 12 20 ];
+        %tmp.85 = getm $.Toybox.Graphics;
+        symbol [ FONT_NUMBER_MEDIUM %tmp.86 49 21 39 ];
+        %tmp.86 = getv %tmp.85 :FONT_NUMBER_MEDIUM;
+        %tmp.87 = lgetv %timeString.7;
+        symbol [ timeString %tmp.87 50 12 22 ];
+        symbol [ Graphics %tmp.88 51 12 20 ];
+        %tmp.88 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.89 51 21 40 ];
+        %tmp.89 = getv %tmp.88 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.90 51 43 51 ];
+        %tmp.90 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.91 51 52 72 ];
+        %tmp.91 = getv %tmp.90 :TEXT_JUSTIFY_VCENTER;
+        %tmp.92 = bitor %tmp.89 %tmp.91;
+        invoke %tmp.73 %tmp.74(%tmp.79, %tmp.84, %tmp.86, %tmp.87, %tmp.92);
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 55 8 ]
+        %tmp.93 = lgetv %dc;
+        symbol [ dc %tmp.93 55 8 10 ];
+        symbol [ drawText %tmp.94 55 11 19 ];
+        %tmp.94 = getv function %tmp.93 :drawText;
+        %tmp.95 = lgetv %dc;
+        symbol [ dc %tmp.95 56 12 14 ];
+        symbol [ getWidth %tmp.96 56 15 23 ];
+        %tmp.96 = getv function %tmp.95 :getWidth;
+        %tmp.97 = invoke %tmp.95 %tmp.96();
+        %tmp.98 = 2;
+        %tmp.99 = div %tmp.97 %tmp.98;
+        %tmp.100 = 40;
+        symbol [ Graphics %tmp.101 58 12 20 ];
+        %tmp.101 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.102 58 21 30 ];
+        %tmp.102 = getv %tmp.101 :FONT_TINY;
+        %tmp.103 = "Batt: ";
+        %tmp.104 = lgetv %battery.4;
+        symbol [ battery %tmp.104 59 23 30 ];
+        symbol [ format %tmp.105 59 31 37 ];
+        %tmp.105 = getv function %tmp.104 :format;
+        %tmp.106 = "%d";
+        %tmp.107 = invoke %tmp.104 %tmp.105(%tmp.106);
+        %tmp.108 = add %tmp.103 %tmp.107;
+        %tmp.109 = "%";
+        %tmp.110 = add %tmp.108 %tmp.109;
+        symbol [ Graphics %tmp.111 60 12 20 ];
+        %tmp.111 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.112 60 21 40 ];
+        %tmp.112 = getv %tmp.111 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.93 %tmp.94(%tmp.99, %tmp.100, %tmp.102, %tmp.110, %tmp.112);
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 64 8 ]
+        [ "C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_start" "C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_stop" ]
+        %hrDisplay.8 = local;
+        symbol [ hrDisplay %hrDisplay.8 64 12 21 ];
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_64_24_64_58_begin:
+        %tmp.113 = lgetv %hr.2;
+        symbol [ hr %tmp.113 64 25 27 ];
+        %tmp.114 = null;
+        %tmp.115 = eq %tmp.113 %tmp.114;
+        bf %tmp.115 @C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_64_24_64_58_else_false;
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_64_24_64_58_true:
+        %tmp.116 = "--";
+        push %tmp.116;
+        goto @C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_64_24_64_58_end;
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_64_24_64_58_else_false:
+        %tmp.117 = lgetv %hr.2;
+        symbol [ hr %tmp.117 64 46 48 ];
+        %tmp.118 = as %tmp.117 { (!Null) };
+        symbol [ toString %tmp.119 64 49 57 ];
+        %tmp.119 = getv function %tmp.118 :toString;
+        %tmp.120 = invoke %tmp.118 %tmp.119();
+        push %tmp.120;
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_64_24_64_58_end:
+        %tmp.121 = phi [%tmp.115 @C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_64_24_64_58_begin] [%tmp.116 @C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_64_24_64_58_true] [%tmp.120 @C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_64_24_64_58_else_false] [%tmp.121 @C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_64_24_64_58_end];
+        lputv %hrDisplay.8 %tmp.121;
+        symbol [ hrDisplay %hrDisplay.8 64 12 21 ];
+[ "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc" 65 8 ]
+        %tmp.122 = lgetv %dc;
+        symbol [ dc %tmp.122 65 8 10 ];
+        symbol [ drawText %tmp.123 65 11 19 ];
+        %tmp.123 = getv function %tmp.122 :drawText;
+        %tmp.124 = lgetv %dc;
+        symbol [ dc %tmp.124 66 12 14 ];
+        symbol [ getWidth %tmp.125 66 15 23 ];
+        %tmp.125 = getv function %tmp.124 :getWidth;
+        %tmp.126 = invoke %tmp.124 %tmp.125();
+        %tmp.127 = 2;
+        %tmp.128 = div %tmp.126 %tmp.127;
+        %tmp.129 = lgetv %dc;
+        symbol [ dc %tmp.129 67 12 14 ];
+        symbol [ getHeight %tmp.130 67 15 24 ];
+        %tmp.130 = getv function %tmp.129 :getHeight;
+        %tmp.131 = invoke %tmp.129 %tmp.130();
+        %tmp.132 = 60;
+        %tmp.133 = sub %tmp.131 %tmp.132;
+        symbol [ Graphics %tmp.134 68 12 20 ];
+        %tmp.134 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.135 68 21 31 ];
+        %tmp.135 = getv %tmp.134 :FONT_SMALL;
+        %tmp.136 = "HR: ";
+        %tmp.137 = lgetv %hrDisplay.8;
+        symbol [ hrDisplay %tmp.137 69 21 30 ];
+        %tmp.138 = add %tmp.136 %tmp.137;
+        symbol [ Graphics %tmp.139 70 12 20 ];
+        %tmp.139 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.140 70 21 40 ];
+        %tmp.140 = getv %tmp.139 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.122 %tmp.123(%tmp.128, %tmp.133, %tmp.135, %tmp.138, %tmp.140);
+C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCardiaqueView_mc_13_40_72_4_stop:
+    }
+}
+[ @file = "C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\source\MoniteurCardiaqueView.mc"; @line = 1; ]
+<init> {
+}
