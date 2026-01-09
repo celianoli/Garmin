@@ -402,7 +402,7 @@ C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCa
         %tmp.128 = "Jan";
         %tmp.129 = dup %tmp.127;
         %tmp.130 = aputv %tmp.129 0 %tmp.128;
-        %tmp.131 = "Fév";
+        %tmp.131 = "FÃ©v";
         %tmp.132 = dup %tmp.130;
         %tmp.133 = aputv %tmp.132 1 %tmp.131;
         %tmp.134 = "Mar";
@@ -420,7 +420,7 @@ C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCa
         %tmp.146 = "Juil";
         %tmp.147 = dup %tmp.145;
         %tmp.148 = aputv %tmp.147 6 %tmp.146;
-        %tmp.149 = "Août";
+        %tmp.149 = "AoÃ»t";
         %tmp.150 = dup %tmp.148;
         %tmp.151 = aputv %tmp.150 7 %tmp.149;
         %tmp.152 = "Sep";
@@ -432,7 +432,7 @@ C__Users_Cess_Documents_github_projet_Garmin_MoniteurCardiaque_source_MoniteurCa
         %tmp.158 = "Nov";
         %tmp.159 = dup %tmp.157;
         %tmp.160 = aputv %tmp.159 10 %tmp.158;
-        %tmp.161 = "Déc";
+        %tmp.161 = "DÃ©c";
         %tmp.162 = dup %tmp.160;
         %tmp.163 = aputv %tmp.162 11 %tmp.161;
         lputv %mois.9 %tmp.163;

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Users\Cess\Documents\github\projet\Garmin\MoniteurCardiaque\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueApp.mc" id="1" lineNum="26" parent="globals" pc="268435457" symbol="getApp"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueApp.mc" id="1" lineNum="27" parent="globals" pc="268435467" symbol="getApp"/>
+<entry filename="c:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\gen\\006-B4024-00\\source\\Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435478" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueApp.mc" id="3" lineNum="5" parent="globals/MoniteurCardiaqueApp" pc="268435498" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="4" lineNum="9" parent="globals/MoniteurCardiaqueView" pc="268435510" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueApp.mc" id="6" lineNum="20" parent="globals/MoniteurCardiaqueApp" pc="268435522" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueApp.mc" id="6" lineNum="21" parent="globals/MoniteurCardiaqueApp" pc="268435524" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueApp.mc" id="7" lineNum="7" parent="globals/MoniteurCardiaqueApp" pc="268435550" symbol="initialize"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueApp.mc" id="7" lineNum="8" parent="globals/MoniteurCardiaqueApp" pc="268435552" symbol="initialize"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="9" lineNum="13" parent="globals/MoniteurCardiaqueView" pc="268435565" symbol="initialize"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="9" lineNum="14" parent="globals/MoniteurCardiaqueView" pc="268435567" symbol="initialize"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="9" lineNum="15" parent="globals/MoniteurCardiaqueView" pc="268435579" symbol="initialize"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="18" parent="globals/MoniteurCardiaqueView" pc="268435618" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="19" parent="globals/MoniteurCardiaqueView" pc="268435621" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="20" parent="globals/MoniteurCardiaqueView" pc="268435633" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="23" parent="globals/MoniteurCardiaqueView" pc="268435645" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="24" parent="globals/MoniteurCardiaqueView" pc="268435648" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="24" parent="globals/MoniteurCardiaqueView" pc="268435659" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="25" parent="globals/MoniteurCardiaqueView" pc="268435668" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="26" parent="globals/MoniteurCardiaqueView" pc="268435676" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="29" parent="globals/MoniteurCardiaqueView" pc="268435698" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="30" parent="globals/MoniteurCardiaqueView" pc="268435701" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="31" parent="globals/MoniteurCardiaqueView" pc="268435707" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="31" parent="globals/MoniteurCardiaqueView" pc="268435716" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="32" parent="globals/MoniteurCardiaqueView" pc="268435726" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="32" parent="globals/MoniteurCardiaqueView" pc="268435735" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="33" parent="globals/MoniteurCardiaqueView" pc="268435745" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="33" parent="globals/MoniteurCardiaqueView" pc="268435754" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="34" parent="globals/MoniteurCardiaqueView" pc="268435764" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="34" parent="globals/MoniteurCardiaqueView" pc="268435772" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="35" parent="globals/MoniteurCardiaqueView" pc="268435781" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="35" parent="globals/MoniteurCardiaqueView" pc="268435789" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="36" parent="globals/MoniteurCardiaqueView" pc="268435798" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="40" parent="globals/MoniteurCardiaqueView" pc="268435804" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="41" parent="globals/MoniteurCardiaqueView" pc="268435816" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="42" parent="globals/MoniteurCardiaqueView" pc="268435824" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="44" parent="globals/MoniteurCardiaqueView" pc="268435833" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="48" parent="globals/MoniteurCardiaqueView" pc="268435850" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="49" parent="globals/MoniteurCardiaqueView" pc="268435864" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="52" parent="globals/MoniteurCardiaqueView" pc="268435894" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="53" parent="globals/MoniteurCardiaqueView" pc="268435919" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="54" parent="globals/MoniteurCardiaqueView" pc="268435926" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="55" parent="globals/MoniteurCardiaqueView" pc="268435933" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="57" parent="globals/MoniteurCardiaqueView" pc="268435979" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="58" parent="globals/MoniteurCardiaqueView" pc="268435992" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="61" parent="globals/MoniteurCardiaqueView" pc="268436020" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="62" parent="globals/MoniteurCardiaqueView" pc="268436032" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="63" parent="globals/MoniteurCardiaqueView" pc="268436108" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="66" parent="globals/MoniteurCardiaqueView" pc="268436144" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="67" parent="globals/MoniteurCardiaqueView" pc="268436159" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="68" parent="globals/MoniteurCardiaqueView" pc="268436163" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="69" parent="globals/MoniteurCardiaqueView" pc="268436181" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="70" parent="globals/MoniteurCardiaqueView" pc="268436205" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="71" parent="globals/MoniteurCardiaqueView" pc="268436218" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="72" parent="globals/MoniteurCardiaqueView" pc="268436247" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="75" parent="globals/MoniteurCardiaqueView" pc="268436283" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="76" parent="globals/MoniteurCardiaqueView" pc="268436300" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="77" parent="globals/MoniteurCardiaqueView" pc="268436324" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="79" parent="globals/MoniteurCardiaqueView" pc="268436366" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="80" parent="globals/MoniteurCardiaqueView" pc="268436378" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="81" parent="globals/MoniteurCardiaqueView" pc="268436390" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="82" parent="globals/MoniteurCardiaqueView" pc="268436416" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="83" parent="globals/MoniteurCardiaqueView" pc="268436431" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="83" parent="globals/MoniteurCardiaqueView" pc="268436442" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\MoniteurCardiaqueView.mc" id="10" lineNum="84" parent="globals/MoniteurCardiaqueView" pc="268436449" symbol="onUpdate"/>
+<entry filename="c:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\gen\\006-B4024-00\\source\\Rez.mcgen" id="11" lineNum="14" parent="globals/Rez/Layouts" pc="268436485" symbol="WatchFace"/>
+<entry filename="c:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\gen\\006-B4024-00\\source\\Rez.mcgen" id="11" lineNum="15" parent="globals/Rez/Layouts" pc="268436496" symbol="WatchFace"/>
+<entry filename="c:\\Users\\Cess\\Documents\\github\\projet\\Garmin\\MoniteurCardiaque\\source\\gen\\006-B4024-00\\source\\Rez.mcgen" id="11" lineNum="17" parent="globals/Rez/Layouts" pc="268436612" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="11" symbol="Paysage"/>
+<entry field="true" id="12" symbol="AppName"/>
+<entry id="8388633" module="true" symbol="ActivityMonitor"/>
+<entry id="5" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="9" symbol="imagePaysage"/>
+<entry id="7" object="true" symbol="MoniteurCardiaqueView"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="10" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="6" object="true" symbol="MoniteurCardiaqueApp"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="8388747" symbol="currentHeartRate"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8389347" symbol="color"/>
+<entry id="8" module="true" symbol="Layouts"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268436484" name="dc" stackId="1" startPc="268435618"/>
+<entry endPc="268436483" name="info" stackId="2" startPc="268435621"/>
+<entry endPc="268436483" name="stats" stackId="3" startPc="268435621"/>
+<entry endPc="268436483" name="hr" stackId="4" startPc="268435621"/>
+<entry endPc="268436483" name="battery" stackId="5" startPc="268435621"/>
+<entry endPc="268436483" name="pas" stackId="6" startPc="268435621"/>
+<entry endPc="268436483" name="zoneColor" stackId="7" startPc="268435621"/>
+<entry endPc="268436483" name="now" stackId="8" startPc="268435621"/>
+<entry endPc="268436483" name="jours" stackId="9" startPc="268435621"/>
+<entry endPc="268436483" name="mois" stackId="10" startPc="268435621"/>
+<entry endPc="268436483" name="dateString" stackId="11" startPc="268435621"/>
+<entry endPc="268436483" name="clockTime" stackId="12" startPc="268435621"/>
+<entry endPc="268436483" name="timeString" stackId="13" startPc="268435621"/>
+<entry endPc="268436483" name="battX" stackId="14" startPc="268435621"/>
+<entry endPc="268436483" name="battY" stackId="15" startPc="268435621"/>
+<entry endPc="268436483" name="charge" stackId="16" startPc="268435621"/>
+<entry endPc="268436483" name="hrDisplay" stackId="17" startPc="268435621"/>
+<entry endPc="268436483" name="xBar" stackId="18" startPc="268435621"/>
+<entry endPc="268436483" name="yBar" stackId="19" startPc="268435621"/>
+<entry endPc="268436483" name="ratioPas" stackId="20" startPc="268435621"/>
+<entry arg="true" endPc="268436621" name="dc" stackId="1" startPc="268436485"/>
+</localVars>
+<deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4024-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Paysage"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Rez" offset="125" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/MoniteurCardiaqueApp" offset="178" parentId="globals" symbolId="MoniteurCardiaqueApp" type="class"/>
+<dataEntry label="globals/MoniteurCardiaqueView" offset="249" parentId="globals" symbolId="MoniteurCardiaqueView" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="311" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="355" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="390" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435477" name="getApp" startPc="268435457">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435497" name="&lt;init&gt;" parent="Rez" startPc="268435478">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435509" name="&lt;init&gt;" parent="MoniteurCardiaqueApp" startPc="268435498">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435521" name="&lt;init&gt;" parent="MoniteurCardiaqueView" startPc="268435510">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="MoniteurCardiaqueApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435549" name="getInitialView" parent="MoniteurCardiaqueApp" startPc="268435522">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435564" name="initialize" parent="MoniteurCardiaqueApp" startPc="268435550">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="MoniteurCardiaqueApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435617" name="initialize" parent="MoniteurCardiaqueView" startPc="268435565">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436484" name="onUpdate" parent="MoniteurCardiaqueView" startPc="268435618">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436621" name="WatchFace" parent="Layouts" startPc="268436485">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
